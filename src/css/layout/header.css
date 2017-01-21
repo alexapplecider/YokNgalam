@@ -1,0 +1,77 @@
+.container-fluid--header {
+  background: url("../img/header-background.jpg") no-repeat center top;
+  background-size: 100% auto;
+  height: 646px; }
+
+.header__top-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 80px; }
+
+.nav_and_user {
+  display: flex;
+  justify-content: flex-end; }
+
+.top-menu__navigation {
+  align-self: center; }
+
+.logo {
+  font: "Montserrat Regular";
+  font-size: 2em;
+  color: #fff; }
+  .logo .ngalam {
+    font: "Montserrat Bold"; }
+
+.nav-list__item {
+  display: inline-block;
+  margin-right: 60px; }
+  .nav-list__item:last-child {
+    margin-right: 0; }
+  .nav-list__item .nav-list__item-link--active {
+    padding: 15px 20px;
+    border: 3px solid #ffffff;
+    border-radius: 25px; }
+
+.glyphicon-triangle-bottom {
+  color: #fff; }
+
+.promo-block {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative; }
+
+.promo-block__title {
+  text-transform: uppercase;
+  color: #ffffff; }
+  .promo-block__title .lost {
+    color: #01a2a6; }
+
+.promo-block__text {
+  display: block;
+  margin: 0 auto;
+  color: #ffffff; }
+
+.promo-block__button {
+  position: absolute;
+  margin-left: -112.5px;
+  left: 50%;
+  bottom: -115px;
+  display: block;
+  width: 225px;
+  padding: 25px 0;
+  background-color: #ffffa6;
+  border-radius: 40px;
+  text-transform: uppercase;
+  color: #000000; }
+
+@media (max-width: 1200px) {
+  .header__top-menu {
+    margin-bottom: 50px; }
+  .nav-list__item {
+    margin-right: 25px; }
+  .promo-block__button {
+    width: 210px;
+    padding: 20px 0; } }

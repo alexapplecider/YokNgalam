@@ -1,0 +1,322 @@
+.no-padding {
+  padding: 0; }
+
+.about {
+  height: 340px;
+  margin-bottom: 113px;
+  background: url("../img/about-background.png") 75px 79px no-repeat;
+  background-size: 40% auto; }
+  .about .about__description {
+    padding: 0; }
+  .about .about__title {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 53px;
+    color: #29d9c2; }
+    .about .about__title .love {
+      color: #01a2a6; }
+
+.destination {
+  padding: 0; }
+
+.container-fluid--destination {
+  background-color: #f2fefe; }
+
+.destination__title {
+  margin-top: 55px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  color: #29d9c2; }
+  .destination__title .tination {
+    color: #01a2a6; }
+
+.destination__text {
+  margin-bottom: 60px;
+  margin-left: 100px; }
+
+.destination__search-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+  .destination__search-form > input[type="text"] {
+    position: relative;
+    font-family: "Lato Medium Italic", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 237px;
+    padding: 8px 10px 8px 40px;
+    border-radius: 30px;
+    border: 1px solid #e8e8e8; }
+  .destination__search-form .glyphicon-search-form {
+    position: absolute;
+    left: 30px;
+    top: 12px; }
+  .destination__search-form .search-form__all-place {
+    font-family: "Lato Black";
+    text-transform: uppercase;
+    color: #777777;
+    font-size: 1em; }
+  .destination__search-form .search-form__recomended-place {
+    font: "Lato Medium";
+    color: #cbd0d0;
+    text-transform: uppercase;
+    font-size: 1em; }
+
+.destination-gallery {
+  padding: 0; }
+
+.gallery-batu {
+  padding: 0;
+  position: relative;
+  margin-bottom: 30px; }
+  .gallery-batu .gallery-batu__img {
+    width: 100%;
+    height: 520px;
+    position: relative;
+    object-fit: cover;
+    object-position: 0 22%; }
+  .gallery-batu .gallery-batu__see-more {
+    position: absolute;
+    bottom: 2%;
+    left: 52%;
+    color: #fff; }
+
+.gallery-batu__description {
+  background: #f5fafc url("../img/icon1.png") 37px 55px/86px 89px no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40.17094017094017%;
+  height: 520px;
+  padding: 165px 44px 55px 45px;
+  opacity: 0.93; }
+  .gallery-batu__description::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #f5fafc;
+    transform: rotate(45deg);
+    top: 50%;
+    left: -10px; }
+  .gallery-batu__description .batu-description__title,
+  .gallery-batu__description .bromo-description__title {
+    color: #01a2a6;
+    margin-bottom: 15px; }
+
+.gallery__bromo {
+  width: 57.26495726495726%;
+  background: url(../img/bromo-img.jpg) no-repeat 0px -175px;
+  padding: 0;
+  position: relative;
+  height: 360px;
+  margin-right: 28px; }
+  .gallery__bromo .gallery-bromo__img {
+    position: absolute;
+    width: 100%;
+    height: 360px; }
+  .gallery__bromo .gallery-bromo__see-more {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    color: #fff; }
+
+.gallery-bromo__description {
+  height: 360px;
+  width: 49.55223880597015%;
+  padding: 120px 30px 30px 25px;
+  opacity: 0.95;
+  background: #f5fafc url("../img/icon2.png") no-repeat 10% 12%; }
+  .gallery-bromo__description .bromo-description__title {
+    color: #01a2a6;
+    margin-bottom: 15px; }
+
+.gallery__other-places {
+  position: relative;
+  width: 40.17094017094017%;
+  height: 360px;
+  background: url(../img/other-img.jpg) 138% no-repeat;
+  background-position: -122px -48px; }
+  .gallery__other-places::after {
+    position: absolute;
+    content: '';
+    background: url("../img/icon3.png") no-repeat center;
+    background-color: #FFF;
+    opacity: 0.95;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    left: 50%;
+    margin-left: -75px;
+    top: 50%;
+    margin-top: -75px; }
+  .gallery__other-places .other-places__see-more {
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
+    color: #fff; }
+
+.gallery__other-pages {
+  margin-top: 70px;
+  margin-bottom: 75px; }
+  .gallery__other-pages .other-pages__item {
+    display: inline-block;
+    margin-right: 10px; }
+  .gallery__other-pages .other-pages__item-link {
+    font-family: "ChunkFive", serif;
+    font-size: 18px;
+    color: #acacac; }
+  .gallery__other-pages .other-pages__item-link--active {
+    font-size: 24px;
+    color: #01a2a6; }
+
+.set-itinerary {
+  padding-top: 70px;
+  margin-bottom: 100px; }
+  .set-itinerary .set-itinerary__title {
+    margin-bottom: 50px; }
+  .set-itinerary .set-itinerary__text {
+    text-align: center; }
+
+.container-fluid--contact {
+  padding-bottom: 75px;
+  background: url("../img/map-background.jpg") center no-repeat; }
+  .container-fluid--contact .contact__title {
+    padding-top: 90px;
+    font: 4.8em 'ChunkFive';
+    text-align: center;
+    margin-bottom: 90px;
+    color: #FFFFFF; }
+  .container-fluid--contact .contact-address__title {
+    font: 42px 'Lato Light';
+    margin-bottom: 50px;
+    color: #FFFFFF; }
+
+.contact__adress-list {
+  margin-left: 10px; }
+
+.contact__adress-list--item {
+  position: relative;
+  font: 13px 'Lato';
+  line-height: 1.5;
+  list-style: none;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+  padding-left: 25px; }
+  .contact__adress-list--item:first-child::after {
+    position: absolute;
+    content: '';
+    width: 23px;
+    height: 25px;
+    left: -6px;
+    top: -2px;
+    background: url(../img/sprites-icon.png) no-repeat -30px 1px; }
+  .contact__adress-list--item::after {
+    position: absolute;
+    content: '';
+    width: 23px;
+    height: 25px;
+    left: -6px;
+    top: -5px;
+    background: url(../img/sprites-icon.png) no-repeat -53px 1px; }
+  .contact__adress-list--item .contact__adress-link-map {
+    color: #fff772;
+    font-style: italic; }
+
+.contact__form {
+  position: relative;
+  padding: 0; }
+  .contact__form::after {
+    position: absolute;
+    content: 'OR';
+    font: 14px 'Montserrat';
+    color: white;
+    width: 20px;
+    height: 20px;
+    top: 31%;
+    left: 120%; }
+  .contact__form .form-input {
+    padding: 20px 0 22px 25px;
+    border: 1px solid #c7c7c7;
+    border-radius: 6px;
+    font: 14px 'Lato Medium';
+    font-style: italic;
+    color: #b9b9b9; }
+  .contact__form .form-email {
+    margin-bottom: 20px;
+    width: 100%; }
+  .contact__form .form-company {
+    margin-bottom: 20px;
+    margin-right: 14px;
+    width: 48%; }
+  .contact__form .form-subject {
+    margin-bottom: 20px;
+    width: 48%; }
+  .contact__form .form-textarea {
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    border-radius: 6px;
+    padding: 0 0 22px 25px;
+    height: 100px; }
+  .contact__form .send-message {
+    text-transform: uppercase;
+    float: right;
+    margin-top: 27px;
+    color: #FFFFFF;
+    background-color: #b4ec84;
+    border-radius: 30px;
+    padding: 23px 25px;
+    font: 15px "Lato Heavy"; }
+
+.container-fluid--keep-in-touch {
+  padding: 56px 40px;
+  background-image: linear-gradient(-298deg, #bdf271 50%, #b1e568 50%); }
+  .container-fluid--keep-in-touch .keep-in-touch__title-wrap {
+    padding: 0; }
+  .container-fluid--keep-in-touch .keep-in-touch__title {
+    font: 67px 'ChunkFive';
+    color: #FFFFFF; }
+  .container-fluid--keep-in-touch .keep-in-touch__text {
+    font: 16px 'Lato Regular';
+    color: #FFFFFF; }
+
+.keep-in-touch__input-wrap {
+  padding: 0; }
+  .keep-in-touch__input-wrap .keep-in-touch__input {
+    position: relative;
+    font: 16px 'Lato Medium';
+    font-style: italic;
+    padding: 25px 72px 25px 25px;
+    width: 98.94736842105263%;
+    border: 1px solid #7ca83f;
+    border-radius: 6px; }
+  .keep-in-touch__input-wrap .keep-in-touch__input-link {
+    position: absolute;
+    display: block;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 18px;
+    width: 72px;
+    height: 71px;
+    top: 0;
+    right: 1%;
+    background-color: #01a2a6;
+    border: 1px solid #7ca83f;
+    border-left: 0 transparent;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+
+@media (max-width: 1200px) {
+  .gallery-batu__see-more {
+    left: 50%; }
+  .gallery__bromo {
+    margin-right: 24px; }
+  .gallery__other-places::after {
+    background-size: 55% auto;
+    width: 140px;
+    height: 140px; }
+  .contact__form .form-company {
+    margin-right: 11px; }
+  .container-fluid--keep-in-touch {
+    background-image: linear-gradient(-298deg, #bdf271 53%, #b1e568 50%); } }

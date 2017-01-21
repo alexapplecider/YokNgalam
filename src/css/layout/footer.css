@@ -1,0 +1,16 @@
+.container-fluid--footer {
+  background: #000000 url("../img/footer-background.jpg") center no-repeat; }
+  .container-fluid--footer .legal-agreement {
+    margin-top: 25px;
+    color: #5a595a; }
+  .container-fluid--footer .footer-social-list {
+    margin-top: 25px;
+    float: right; }
+  .container-fluid--footer .footer-social-list--item {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px; }
+  .container-fluid--footer .copyright {
+    margin-top: 160px;
+    margin-bottom: 15px;
+    color: #939293; }

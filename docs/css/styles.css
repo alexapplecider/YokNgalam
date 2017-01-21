@@ -1,0 +1,734 @@
+@font-face {
+  font-family: 'ChunkFive';
+  src: url("../fonts/ChunkFive-Roman.eot");
+  src: url("../fonts/ChunkFive-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/ChunkFive-Roman.woff") format("woff"), url("../fonts/ChunkFive-Roman.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url("../fonts/MontserratAlternates-Bold.eot");
+  src: url("../fonts/MontserratAlternates-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/MontserratAlternates-Bold.woff") format("woff"), url("../fonts/MontserratAlternates-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url("../fonts/MontserratAlternates-Regular.eot");
+  src: url("../fonts/MontserratAlternates-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MontserratAlternates-Regular.woff") format("woff"), url("../fonts/MontserratAlternates-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Bold';
+  src: url("../fonts/Lato-Bold.eot");
+  src: url("../fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Heavy';
+  src: url("../fonts/Lato-Heavy.eot");
+  src: url("../fonts/Lato-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Heavy.woff") format("woff"), url("../fonts/Lato-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Medium Italic';
+  src: url("../fonts/Lato-MediumItalic.eot");
+  src: url("../fonts/Lato-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-MediumItalic.woff") format("woff"), url("../fonts/Lato-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Lato Medium';
+  src: url("../fonts/Lato-Medium.eot");
+  src: url("../fonts/Lato-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Medium.woff") format("woff"), url("../fonts/Lato-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Black';
+  src: url("../fonts/Lato-Black.eot");
+  src: url("../fonts/Lato-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Black.woff") format("woff"), url("../fonts/Lato-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Regular';
+  src: url("../fonts/Lato-Regular.eot");
+  src: url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Lato Light';
+  src: url("../fonts/Lato-Light.eot");
+  src: url("../fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+.nav-list__item .nav-list__item-link {
+  font-family: "Lato Medium", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: white; }
+
+.promo-block__title {
+  font-family: "ChunkFive", Arial, Helvetica, sans-serif;
+  font-size: 5.7em; }
+
+.promo-block__text {
+  font-family: "Lato Regular", Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.7; }
+
+.promo-block__button, .itinerary-constructor .number-day {
+  font-family: "Lato Black", Arial, Helvetica, sans-serif;
+  font-size: 1.1em; }
+
+.about .about__title {
+  font-family: "ChunkFive", Arial, Helvetica, sans-serif;
+  font-size: 4.28em; }
+
+.about .about__text, .destination__text {
+  font-family: "Lato Regular", Arial, Helvetica, sans-serif;
+  font-size: 1.143em;
+  line-height: 1.7; }
+
+.destination__title, .set-itinerary .set-itinerary__title {
+  font-family: "ChunkFive", Arial, Helvetica, sans-serif;
+  font-size: 4.8em; }
+
+.gallery-batu__description .batu-description__title,
+.gallery-batu__description .bromo-description__title, .gallery-bromo__description .bromo-description__title {
+  font-family: "Lato Light", Arial, Helvetica, sans-serif;
+  font-size: 2.15em; }
+
+.gallery-batu__description .batu-description__text,
+.gallery-batu__description .bromo-description__title {
+  font-family: "Lato Bold", Arial, Helvetica, sans-serif;
+  font-size: 1.143em;
+  line-height: 1.7; }
+
+.gallery-bromo__description .bromo-description__text, .set-itinerary .set-itinerary__text {
+  font-family: "Lato Regular", Arial, Helvetica, sans-serif;
+  font-size: 1.143em;
+  line-height: 1.7; }
+
+.container-fluid--header {
+  background: url("../img/header-background.jpg") no-repeat center top;
+  background-size: 100% auto;
+  height: 646px; }
+
+.header__top-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 80px; }
+
+.nav_and_user {
+  display: flex;
+  justify-content: flex-end; }
+
+.top-menu__navigation {
+  align-self: center; }
+
+.logo {
+  font: "Montserrat Regular";
+  font-size: 2em;
+  color: #fff; }
+  .logo .ngalam {
+    font: "Montserrat Bold"; }
+
+.nav-list__item {
+  display: inline-block;
+  margin-right: 60px; }
+  .nav-list__item:last-child {
+    margin-right: 0; }
+  .nav-list__item .nav-list__item-link--active {
+    padding: 15px 20px;
+    border: 3px solid #ffffff;
+    border-radius: 25px; }
+
+.glyphicon-triangle-bottom {
+  color: #fff; }
+
+.promo-block {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative; }
+
+.promo-block__title {
+  text-transform: uppercase;
+  color: #ffffff; }
+  .promo-block__title .lost {
+    color: #01a2a6; }
+
+.promo-block__text {
+  display: block;
+  margin: 0 auto;
+  color: #ffffff; }
+
+.promo-block__button {
+  position: absolute;
+  margin-left: -112.5px;
+  left: 50%;
+  bottom: -115px;
+  display: block;
+  width: 225px;
+  padding: 25px 0;
+  background-color: #ffffa6;
+  border-radius: 40px;
+  text-transform: uppercase;
+  color: #000000; }
+
+@media (max-width: 1200px) {
+  .header__top-menu {
+    margin-bottom: 50px; }
+  .nav-list__item {
+    margin-right: 25px; }
+  .promo-block__button {
+    width: 210px;
+    padding: 20px 0; } }
+
+.no-padding {
+  padding: 0; }
+
+.about {
+  height: 340px;
+  margin-bottom: 113px;
+  background: url("../img/about-background.png") 75px 79px no-repeat;
+  background-size: 40% auto; }
+  .about .about__description {
+    padding: 0; }
+  .about .about__title {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 53px;
+    color: #29d9c2; }
+    .about .about__title .love {
+      color: #01a2a6; }
+
+.destination {
+  padding: 0; }
+
+.container-fluid--destination {
+  background-color: #f2fefe; }
+
+.destination__title {
+  margin-top: 55px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  color: #29d9c2; }
+  .destination__title .tination {
+    color: #01a2a6; }
+
+.destination__text {
+  margin-bottom: 60px;
+  margin-left: 100px; }
+
+.destination__search-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+  .destination__search-form > input[type="text"] {
+    position: relative;
+    font-family: "Lato Medium Italic", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 237px;
+    padding: 8px 10px 8px 40px;
+    border-radius: 30px;
+    border: 1px solid #e8e8e8; }
+  .destination__search-form .glyphicon-search-form {
+    position: absolute;
+    left: 30px;
+    top: 12px; }
+  .destination__search-form .search-form__all-place {
+    font-family: "Lato Black";
+    text-transform: uppercase;
+    color: #777777;
+    font-size: 1em; }
+  .destination__search-form .search-form__recomended-place {
+    font: "Lato Medium";
+    color: #cbd0d0;
+    text-transform: uppercase;
+    font-size: 1em; }
+
+.destination-gallery {
+  padding: 0; }
+
+.gallery-batu {
+  padding: 0;
+  position: relative;
+  margin-bottom: 30px; }
+  .gallery-batu .gallery-batu__img {
+    width: 100%;
+    height: 520px;
+    position: relative;
+    object-fit: cover;
+    object-position: 0 22%; }
+  .gallery-batu .gallery-batu__see-more {
+    position: absolute;
+    bottom: 2%;
+    left: 52%;
+    color: #fff; }
+
+.gallery-batu__description {
+  background: #f5fafc url("../img/icon1.png") 37px 55px/86px 89px no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40.17094017094017%;
+  height: 520px;
+  padding: 165px 44px 55px 45px;
+  opacity: 0.93; }
+  .gallery-batu__description::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #f5fafc;
+    transform: rotate(45deg);
+    top: 50%;
+    left: -10px; }
+  .gallery-batu__description .batu-description__title,
+  .gallery-batu__description .bromo-description__title {
+    color: #01a2a6;
+    margin-bottom: 15px; }
+
+.gallery__bromo {
+  width: 57.26495726495726%;
+  background: url(../img/bromo-img.jpg) no-repeat 0px -175px;
+  padding: 0;
+  position: relative;
+  height: 360px;
+  margin-right: 28px; }
+  .gallery__bromo .gallery-bromo__img {
+    position: absolute;
+    width: 100%;
+    height: 360px; }
+  .gallery__bromo .gallery-bromo__see-more {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    color: #fff; }
+
+.gallery-bromo__description {
+  height: 360px;
+  width: 49.55223880597015%;
+  padding: 120px 30px 30px 25px;
+  opacity: 0.95;
+  background: #f5fafc url("../img/icon2.png") no-repeat 10% 12%; }
+  .gallery-bromo__description .bromo-description__title {
+    color: #01a2a6;
+    margin-bottom: 15px; }
+
+.gallery__other-places {
+  position: relative;
+  width: 40.17094017094017%;
+  height: 360px;
+  background: url(../img/other-img.jpg) 138% no-repeat;
+  background-position: -122px -48px; }
+  .gallery__other-places::after {
+    position: absolute;
+    content: '';
+    background: url("../img/icon3.png") no-repeat center;
+    background-color: #FFF;
+    opacity: 0.95;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    left: 50%;
+    margin-left: -75px;
+    top: 50%;
+    margin-top: -75px; }
+  .gallery__other-places .other-places__see-more {
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
+    color: #fff; }
+
+.gallery__other-pages {
+  margin-top: 70px;
+  margin-bottom: 75px; }
+  .gallery__other-pages .other-pages__item {
+    display: inline-block;
+    margin-right: 10px; }
+  .gallery__other-pages .other-pages__item-link {
+    font-family: "ChunkFive", serif;
+    font-size: 18px;
+    color: #acacac; }
+  .gallery__other-pages .other-pages__item-link--active {
+    font-size: 24px;
+    color: #01a2a6; }
+
+.set-itinerary {
+  padding-top: 70px;
+  margin-bottom: 100px; }
+  .set-itinerary .set-itinerary__title {
+    margin-bottom: 50px; }
+  .set-itinerary .set-itinerary__text {
+    text-align: center; }
+
+.container-fluid--contact {
+  padding-bottom: 75px;
+  background: url("../img/map-background.jpg") center no-repeat; }
+  .container-fluid--contact .contact__title {
+    padding-top: 90px;
+    font: 4.8em 'ChunkFive';
+    text-align: center;
+    margin-bottom: 90px;
+    color: #FFFFFF; }
+  .container-fluid--contact .contact-address__title {
+    font: 42px 'Lato Light';
+    margin-bottom: 50px;
+    color: #FFFFFF; }
+
+.contact__adress-list {
+  margin-left: 10px; }
+
+.contact__adress-list--item {
+  position: relative;
+  font: 13px 'Lato';
+  line-height: 1.5;
+  list-style: none;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+  padding-left: 25px; }
+  .contact__adress-list--item:first-child::after {
+    position: absolute;
+    content: '';
+    width: 23px;
+    height: 25px;
+    left: -6px;
+    top: -2px;
+    background: url(../img/sprites-icon.png) no-repeat -30px 1px; }
+  .contact__adress-list--item::after {
+    position: absolute;
+    content: '';
+    width: 23px;
+    height: 25px;
+    left: -6px;
+    top: -5px;
+    background: url(../img/sprites-icon.png) no-repeat -53px 1px; }
+  .contact__adress-list--item .contact__adress-link-map {
+    color: #fff772;
+    font-style: italic; }
+
+.contact__form {
+  position: relative;
+  padding: 0; }
+  .contact__form::after {
+    position: absolute;
+    content: 'OR';
+    font: 14px 'Montserrat';
+    color: white;
+    width: 20px;
+    height: 20px;
+    top: 31%;
+    left: 120%; }
+  .contact__form .form-input {
+    padding: 20px 0 22px 25px;
+    border: 1px solid #c7c7c7;
+    border-radius: 6px;
+    font: 14px 'Lato Medium';
+    font-style: italic;
+    color: #b9b9b9; }
+  .contact__form .form-email {
+    margin-bottom: 20px;
+    width: 100%; }
+  .contact__form .form-company {
+    margin-bottom: 20px;
+    margin-right: 14px;
+    width: 48%; }
+  .contact__form .form-subject {
+    margin-bottom: 20px;
+    width: 48%; }
+  .contact__form .form-textarea {
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    border-radius: 6px;
+    padding: 0 0 22px 25px;
+    height: 100px; }
+  .contact__form .send-message {
+    text-transform: uppercase;
+    float: right;
+    margin-top: 27px;
+    color: #FFFFFF;
+    background-color: #b4ec84;
+    border-radius: 30px;
+    padding: 23px 25px;
+    font: 15px "Lato Heavy"; }
+
+.container-fluid--keep-in-touch {
+  padding: 56px 40px;
+  background-image: linear-gradient(-298deg, #bdf271 50%, #b1e568 50%); }
+  .container-fluid--keep-in-touch .keep-in-touch__title-wrap {
+    padding: 0; }
+  .container-fluid--keep-in-touch .keep-in-touch__title {
+    font: 67px 'ChunkFive';
+    color: #FFFFFF; }
+  .container-fluid--keep-in-touch .keep-in-touch__text {
+    font: 16px 'Lato Regular';
+    color: #FFFFFF; }
+
+.keep-in-touch__input-wrap {
+  padding: 0; }
+  .keep-in-touch__input-wrap .keep-in-touch__input {
+    position: relative;
+    font: 16px 'Lato Medium';
+    font-style: italic;
+    padding: 25px 72px 25px 25px;
+    width: 98.94736842105263%;
+    border: 1px solid #7ca83f;
+    border-radius: 6px; }
+  .keep-in-touch__input-wrap .keep-in-touch__input-link {
+    position: absolute;
+    display: block;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 18px;
+    width: 72px;
+    height: 71px;
+    top: 0;
+    right: 1%;
+    background-color: #01a2a6;
+    border: 1px solid #7ca83f;
+    border-left: 0 transparent;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+
+@media (max-width: 1200px) {
+  .gallery-batu__see-more {
+    left: 50%; }
+  .gallery__bromo {
+    margin-right: 24px; }
+  .gallery__other-places::after {
+    background-size: 55% auto;
+    width: 140px;
+    height: 140px; }
+  .contact__form .form-company {
+    margin-right: 11px; }
+  .container-fluid--keep-in-touch {
+    background-image: linear-gradient(-298deg, #bdf271 53%, #b1e568 50%); } }
+
+.itinerary-constructor {
+  margin-top: 70px; }
+  .itinerary-constructor .wrap {
+    background-color: #ffffa6;
+    padding-bottom: 88px;
+    margin-bottom: 17px; }
+  .itinerary-constructor .inner-wrap {
+    width: 600px;
+    margin: 0 auto; }
+  .itinerary-constructor .itinerary-constructor__title {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+    background: #ffffff url("../img/form-title-bg.png") no-repeat center 100%;
+    font: 1.3em "Lato Black";
+    font-weight: 400;
+    color: #FFFFFF;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px; }
+  .itinerary-constructor .city {
+    font-family: "Lato Light", sans-serif;
+    font-size: 1.714em;
+    background-color: #FFFFFF;
+    border: 1px solid #d5d57d;
+    border-radius: 6px;
+    padding: 25px 20px 20px 100px; }
+  .itinerary-constructor .city-bromo {
+    background: #FFFFFF url(../img/icon2.png) no-repeat;
+    background-position: 15px 23px;
+    background-size: 12%; }
+  .itinerary-constructor .city-batu {
+    margin-top: 62px;
+    background: #FFFFFF url(../img/icon1.png) no-repeat;
+    background-position: 25px 10px;
+    background-size: 9%; }
+  .itinerary-constructor .number-day {
+    font-size: 1.2em;
+    color: #29d9c2;
+    float: left;
+    margin-left: 3px; }
+  .itinerary-constructor .datepicker {
+    font-family: "Lato Heavy", sans-serif;
+    font-size: 1.2em;
+    color: #29d9c2;
+    float: right;
+    margin-bottom: 15px;
+    padding-right: 10px; }
+  .itinerary-constructor .glyphicon-triangle-bottom {
+    color: #1aaba6;
+    font-size: 10px;
+    margin-left: 10px; }
+  .itinerary-constructor .start-and-finish-time,
+  .itinerary-constructor .add-sub-destination {
+    float: right;
+    margin-right: 11px; }
+  .itinerary-constructor .start-and-finish-time {
+    font-family: "Lato Light", sans-serif;
+    font-size: 0.75em;
+    color: #c8c8c8; }
+  .itinerary-constructor .add-sub-destination {
+    background: url("../img/form-plus.png") no-repeat;
+    background-position: 161px 11px;
+    font-family: "Lato Heavy", sans-serif;
+    font-size: 1.143em;
+    color: #e0d386;
+    padding-top: 10px;
+    padding-right: 45px;
+    padding-bottom: 15px;
+    padding-left: 11px;
+    background-color: #f5e99e;
+    margin-right: 11px;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0; }
+  .itinerary-constructor .sub-destination {
+    font-family: "Lato Bold", sans-serif;
+    font-size: 1.143em;
+    color: #b8ac66;
+    width: 569px;
+    background-color: #f5e99e;
+    margin-left: 20px;
+    padding-top: 13px;
+    padding-left: 28px;
+    padding-bottom: 10px; }
+  .itinerary-constructor:last-child {
+    border-bottom-left-radius: 6px; }
+  .itinerary-constructor .horizon-line {
+    position: relative; }
+  .itinerary-constructor .horizon-line::after {
+    content: '';
+    position: absolute;
+    width: 536px;
+    border-top: 1px solid #dbce80;
+    top: 53%;
+    left: 35px; }
+  .itinerary-constructor .second-day {
+    margin-top: 95px;
+    margin-bottom: 11px; }
+  .itinerary-constructor .drag-n-drop {
+    font: 16px "Lato Heavy";
+    border: 4px dashed #e8e897;
+    border-radius: 10px;
+    text-align: center;
+    padding: 24px 0;
+    color: #d8cb7d;
+    background-color: #fbf6a3; }
+
+.constructor-btn {
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 22px 20px 22px 50px;
+  font: 16px "Lato Heavy";
+  color: #FFFFFF;
+  float: right; }
+
+.print {
+  position: relative;
+  background-color: #3ddbc7;
+  padding-left: 65px;
+  margin-left: 25px; }
+  .print::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 28px;
+    top: 20px;
+    left: 27px;
+    background: url("../img/icon-print.png") no-repeat 1px 1px; }
+
+.save-pdf {
+  position: relative;
+  background-color: #c3f37f; }
+  .save-pdf::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 28px;
+    top: 16px;
+    left: 15px;
+    background: url("../img/sprites-icon.png") no-repeat;
+    background-position: 1px 1px; }
+
+.list-of-destination {
+  margin-top: 100px;
+  width: 470px; }
+  .list-of-destination .list-of-destination--title {
+    position: relative;
+    text-align: center;
+    font: 1.3em "Lato Black";
+    color: #62e2d1;
+    padding-bottom: 20px;
+    margin-bottom: 35px; }
+    .list-of-destination .list-of-destination--title::after {
+      position: absolute;
+      left: 50%;
+      margin-left: -35px;
+      bottom: 1%;
+      content: '';
+      width: 70px;
+      height: 3px;
+      background-color: #62e2d1; }
+  .list-of-destination .sort-and-search {
+    color: #62e2d1;
+    font: 1.143em "Lato Heavy";
+    margin-bottom: 15px; }
+    .list-of-destination .sort-and-search .glyphicon-search {
+      float: right;
+      margin-right: 25px; }
+  .list-of-destination .sort-type {
+    color: #d3d3d3; }
+  .list-of-destination .glyphicon-triangle-bottom {
+    color: #d3d3d3;
+    font-size: 10px;
+    margin-left: 5px; }
+  .list-of-destination .list-of-destination-cityes--item {
+    list-style: none;
+    border: 2px solid #f7f7f7;
+    border-radius: 6px;
+    padding: 9px 15px 9px 20px;
+    margin-top: 15px;
+    box-shadow: 2px 3px 11px -7px black; }
+  .list-of-destination .item-title {
+    font: 1.714em "Lato Light";
+    display: inline-block;
+    color: #8a8a8a;
+    margin-bottom: 13px; }
+  .list-of-destination .estimated-time,
+  .list-of-destination .estimated-time-hours {
+    font: 1em "Lato Light";
+    color: #cdcdcd; }
+  .list-of-destination .estimated-time-hours {
+    color: #62e2d1; }
+  .list-of-destination .view-details {
+    width: 80px;
+    float: right;
+    font: 1em "Lato";
+    font-weight: 700;
+    color: #62e2d1; }
+
+.container-fluid--footer {
+  background: #000000 url("../img/footer-background.jpg") center no-repeat; }
+  .container-fluid--footer .legal-agreement {
+    margin-top: 25px;
+    color: #5a595a; }
+  .container-fluid--footer .footer-social-list {
+    margin-top: 25px;
+    float: right; }
+  .container-fluid--footer .footer-social-list--item {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px; }
+  .container-fluid--footer .copyright {
+    margin-top: 160px;
+    margin-bottom: 15px;
+    color: #939293; }

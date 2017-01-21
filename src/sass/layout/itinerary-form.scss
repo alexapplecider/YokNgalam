@@ -1,0 +1,238 @@
+.itinerary-constructor {
+  margin-top: 70px;
+  .wrap {
+    background-color: #ffffa6;
+    padding-bottom: 88px;
+    margin-bottom: 17px;
+  }
+  .inner-wrap {
+    width: 600px;
+    margin: 0 auto;
+  }
+  .itinerary-constructor__title {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+    background: #ffffff url("../img/form-title-bg.png") no-repeat center 100%;
+    font: 1.3em "Lato Black";
+    font-weight: 400;
+    color: #FFFFFF;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+  }
+  .city {
+    font-family: "Lato Light", sans-serif;
+    font-size: 1.714em;
+    background-color: #FFFFFF;
+    border: 1px solid #d5d57d;
+    border-radius: 6px;
+    padding: 25px 20px 20px 100px;
+  }
+  .city-bromo {
+    background: #FFFFFF url(../img/icon2.png) no-repeat;
+    background-position: 15px 23px;
+    background-size: 12%;
+  }
+  .city-batu {
+    margin-top: 62px;
+    background: #FFFFFF url(../img/icon1.png) no-repeat;
+    background-position: 25px 10px;
+    background-size: 9%;
+  }
+  .number-day {
+    @extend %h_promo-btn !optional;
+    font-size: 1.2em;
+    color: #29d9c2;
+    float: left;
+    margin-left: 3px;
+  }
+  .datepicker {
+    font-family: "Lato Heavy", sans-serif;
+    font-size: 1.2em;
+    color: #29d9c2;
+    float: right;
+    margin-bottom: 15px;
+    padding-right: 10px;
+  }
+  .glyphicon-triangle-bottom {
+    color: #1aaba6;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .start-and-finish-time,
+  .add-sub-destination {
+    float: right;
+    margin-right: 11px;
+  }
+  .start-and-finish-time {
+    font-family: "Lato Light", sans-serif;
+    font-size: 0.75em;
+    color: #c8c8c8;
+  }
+  .add-sub-destination {
+    background: url("../img/form-plus.png") no-repeat;
+    background-position: 161px 11px;
+    font-family: "Lato Heavy", sans-serif;
+    font-size: 1.143em;
+    color: #e0d386;
+    padding-top: 10px;
+    padding-right: 45px;
+    padding-bottom: 15px;
+    padding-left: 11px;
+    background-color: #f5e99e;
+    margin-right: 11px;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .sub-destination {
+    font-family: "Lato Bold", sans-serif;
+    font-size: 1.143em;
+    color: #b8ac66;
+    width: 569px;
+    background-color: #f5e99e;
+    margin-left: 20px;
+    padding-top: 13px;
+    padding-left: 28px;
+    padding-bottom: 10px;
+  }
+  &:last-child {
+    border-bottom-left-radius: 6px;
+  }
+  .horizon-line {
+    position: relative;
+  }
+  .horizon-line::after {
+    content: '';
+    position: absolute;
+    width: 536px;
+    border-top: 1px solid #dbce80;
+    top: 53%;
+    left: 35px;
+  }
+  .second-day {
+    margin-top: 95px;
+    margin-bottom: 11px;
+  }
+  .drag-n-drop {
+    font: 16px "Lato Heavy";
+    border: 4px dashed #e8e897;
+    border-radius: 10px;
+    text-align: center;
+    padding: 24px 0;
+    color: #d8cb7d;
+    background-color: #fbf6a3;
+  }
+}
+
+.constructor-btn {
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 22px 20px 22px 50px;
+  font: 16px "Lato Heavy";
+  color: #FFFFFF;
+  float: right;
+}
+
+.print {
+  position: relative;
+  background-color: #3ddbc7;
+  padding-left: 65px;
+  margin-left: 25px;
+  &::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 28px;
+    top: 20px;
+    left: 27px;
+    background: url("../img/icon-print.png") no-repeat 1px 1px;
+  }
+}
+
+.save-pdf {
+  position: relative;
+  background-color: #c3f37f;
+  &::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 28px;
+    top: 16px;
+    left: 15px;
+    background: url("../img/sprites-icon.png") no-repeat;
+    background-position: 1px 1px;
+  }
+}
+
+.list-of-destination {
+  margin-top: 100px;
+  width: 470px;
+  .list-of-destination--title {
+    position: relative;
+    text-align: center;
+    font: 1.3em "Lato Black";
+    color: #62e2d1;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    &::after {
+      position: absolute;
+      left: 50%;
+      margin-left: -35px;
+      bottom: 1%;
+      content: '';
+      width: 70px;
+      height: 3px;
+      background-color: #62e2d1;
+    }
+  }
+  .sort-and-search {
+    color: #62e2d1;
+    font: 1.143em "Lato Heavy";
+    margin-bottom: 15px;
+    .glyphicon-search {
+      float: right;
+      margin-right: 25px;
+    }
+  }
+  .sort-type {
+    color: #d3d3d3;
+  }
+  .glyphicon-triangle-bottom {
+    color: #d3d3d3;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .list-of-destination-cityes--item {
+    list-style: none;
+    border: 2px solid #f7f7f7;
+    border-radius: 6px;
+    padding: 9px 15px 9px 20px;
+    margin-top: 15px;
+    box-shadow: 2px 3px 11px -7px black;
+  }
+  .item-title {
+    font: 1.714em "Lato Light";
+    display: inline-block;
+    color: #8a8a8a;
+    margin-bottom: 13px;
+  }
+  .estimated-time,
+  .estimated-time-hours {
+    font: 1em "Lato Light";
+    color: #cdcdcd;
+  }
+  .estimated-time-hours {
+    color: #62e2d1;
+  }
+  .view-details {
+    width: 80px;
+    float: right;
+    font: 1em "Lato";
+    font-weight: 700;
+    color: #62e2d1;
+  }
+}
+
+

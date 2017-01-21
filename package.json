@@ -1,0 +1,25 @@
+{
+  "name": "youngalam",
+  "version": "1.0.0",
+  "description": "Тренировочный макет. Бутстрап, Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexapplecider/YokNgalam.git"
+  },
+  "author": "alexapplecider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexapplecider/YokNgalam/issues"
+  },
+  "homepage": "https://github.com/alexapplecider/YokNgalam#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.0.0"
+  }
+}
