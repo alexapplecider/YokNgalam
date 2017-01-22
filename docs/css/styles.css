@@ -118,7 +118,7 @@
 .container-fluid--header {
   background: url("../img/header-background.jpg") no-repeat center top;
   background-size: 100% auto;
-  height: 646px; }
+  min-height: 646px; }
 
 .header__top-menu {
   display: flex;
@@ -185,6 +185,8 @@
   color: #000000; }
 
 @media (max-width: 1200px) {
+  .container-fluid--header {
+    min-height: 602px; }
   .header__top-menu {
     margin-bottom: 50px; }
   .nav-list__item {
@@ -193,7 +195,9 @@
     width: 210px;
     padding: 20px 0; } }
 
-@media (max-width: 980px) {
+@media (max-width: 992px) {
+  .container-fluid--header {
+    min-height: 483px; }
   .nav-list {
     display: none; }
   .header__top-menu {
@@ -205,6 +209,10 @@
   .promo-block__button {
     bottom: -90px;
     font-size: 1em; } }
+
+@media (max-width: 768px) {
+  .container-fluid--header {
+    min-height: 384px; } }
 
 .no-padding {
   padding: 0; }
@@ -454,7 +462,7 @@
     width: 100%; }
   .contact__form .form-company {
     margin-bottom: 20px;
-    margin-right: 14px;
+    margin-right: 2.95%;
     width: 48%; }
   .contact__form .form-subject {
     margin-bottom: 20px;
@@ -524,14 +532,12 @@
     background-size: 55% auto;
     width: 140px;
     height: 140px; }
-  .contact__form .form-company {
-    margin-right: 11px; }
   .container-fluid--keep-in-touch {
     background-image: linear-gradient(-298deg, #bdf271 53%, #b1e568 50%); } }
 
-@media (max-width: 980px) {
-  .about__title {
-    font-size: 4em; }
+@media (max-width: 992px) {
+  .about .about__title {
+    font-size: 3.95em; }
   .about__text {
     font-size: 1em; }
   .destination__title,
@@ -561,8 +567,6 @@
     margin-bottom: 20px; }
   .contact__form {
     margin-bottom: 20px; }
-  .contact__form .form-company {
-    margin-right: 23px; }
   .contact__form .send-message {
     float: none;
     margin-left: 38%; }
@@ -582,6 +586,12 @@
     margin-bottom: 20px; }
   .container-fluid--keep-in-touch {
     padding: 35px 40px; } }
+
+@media (max-width: 768px) {
+  .header__top-menu {
+    margin-bottom: 20px; }
+  .promo-block__title {
+    font-size: 4em; } }
 
 .itinerary-constructor {
   margin-top: 70px; }
@@ -783,7 +793,11 @@
     font-weight: 700;
     color: #62e2d1; }
 
-@media (max-width: 1227px) {
+@media (max-width: 1200px) {
+  .set-itinerary {
+    display: block; } }
+
+@media (max-width: 1199px) {
   .set-itinerary {
     display: none; } }
 
