@@ -193,6 +193,19 @@
     width: 210px;
     padding: 20px 0; } }
 
+@media (max-width: 980px) {
+  .nav-list {
+    display: none; }
+  .header__top-menu {
+    margin-bottom: 35px; }
+  .promo-block__title {
+    font-size: 4.7em; }
+  .promo-block__text {
+    font-size: 1em; }
+  .promo-block__button {
+    bottom: -90px;
+    font-size: 1em; } }
+
 .no-padding {
   padding: 0; }
 
@@ -230,8 +243,6 @@
   margin-left: 100px; }
 
 .destination__search-form {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 20px; }
   .destination__search-form > input[type="text"] {
     position: relative;
@@ -374,7 +385,9 @@
 
 .container-fluid--contact {
   padding-bottom: 75px;
-  background: url("../img/map-background.jpg") center no-repeat; }
+  background: url("../img/map-background.jpg") center no-repeat;
+  background-size: cover;
+  margin-bottom: -5px; }
   .container-fluid--contact .contact__title {
     padding-top: 90px;
     font: 4.8em 'ChunkFive';
@@ -468,7 +481,7 @@
   .container-fluid--keep-in-touch .keep-in-touch__title-wrap {
     padding: 0; }
   .container-fluid--keep-in-touch .keep-in-touch__title {
-    font: 67px 'ChunkFive';
+    font: 4.78em 'ChunkFive';
     color: #FFFFFF; }
   .container-fluid--keep-in-touch .keep-in-touch__text {
     font: 16px 'Lato Regular';
@@ -515,6 +528,60 @@
     margin-right: 11px; }
   .container-fluid--keep-in-touch {
     background-image: linear-gradient(-298deg, #bdf271 53%, #b1e568 50%); } }
+
+@media (max-width: 980px) {
+  .about__title {
+    font-size: 4em; }
+  .about__text {
+    font-size: 1em; }
+  .destination__title,
+  .set-itinerary__title {
+    font-size: 4em; }
+  .gallery-batu__description .batu-description__text,
+  .gallery-batu__description .bromo-description__text {
+    font-size: 1em; }
+  .gallery-batu__description {
+    padding: 165px 24px 55px 25px; }
+  .gallery-batu .gallery-batu__see-more {
+    left: 48%; }
+  .gallery__bromo {
+    width: 100%;
+    margin-bottom: 30px; }
+  .gallery__other-places {
+    width: 100%;
+    background: url(../img/other-img.jpg) 1% 35% no-repeat;
+    background-size: cover; }
+  .gallery__other-pages {
+    margin-top: 35px;
+    margin-bottom: 35px; }
+  .container-fluid--contact .contact__title {
+    font-size: 4em;
+    padding-top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .contact__form {
+    margin-bottom: 20px; }
+  .contact__form .form-company {
+    margin-right: 23px; }
+  .contact__form .send-message {
+    float: none;
+    margin-left: 38%; }
+  .container-fluid--contact .contact-address__title {
+    text-align: center;
+    margin-bottom: 25px; }
+  .contact__adress-list {
+    padding-left: 160px; }
+  .keep-in-touch__title-wrap {
+    margin-bottom: 10px; }
+  .container-fluid--keep-in-touch .keep-in-touch__title {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 5px; }
+  .container-fluid--keep-in-touch .keep-in-touch__text {
+    text-align: center;
+    margin-bottom: 20px; }
+  .container-fluid--keep-in-touch {
+    padding: 35px 40px; } }
 
 .itinerary-constructor {
   margin-top: 70px; }
@@ -715,6 +782,10 @@
     font: 1em "Lato";
     font-weight: 700;
     color: #62e2d1; }
+
+@media (max-width: 1227px) {
+  .set-itinerary {
+    display: none; } }
 
 .container-fluid--footer {
   background: #000000 url("../img/footer-background.jpg") center no-repeat; }
