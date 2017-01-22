@@ -214,6 +214,21 @@
   .container-fluid--header {
     min-height: 384px; } }
 
+@media (max-width: 480px) {
+  .container-fluid--header {
+    background-size: 163% auto; }
+  .container-fluid--header .header__top-menu {
+    margin-top: 10px;
+    margin-bottom: 0; }
+  .top-menu__user-block {
+    display: none; }
+  .promo-block .promo-block__title {
+    font-size: 3.4em;
+    line-height: 1.5; }
+  .promo-block__button {
+    bottom: -70px;
+    padding: 15px 0; } }
+
 .no-padding {
   padding: 0; }
 
@@ -319,7 +334,6 @@
 
 .gallery__bromo {
   width: 57.26495726495726%;
-  background: url(../img/bromo-img.jpg) no-repeat 0px -175px;
   padding: 0;
   position: relative;
   height: 360px;
@@ -344,12 +358,16 @@
     color: #01a2a6;
     margin-bottom: 15px; }
 
+.gallery-other__img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  object-position: 120% 0%; }
+
 .gallery__other-places {
   position: relative;
   width: 40.17094017094017%;
-  height: 360px;
-  background: url(../img/other-img.jpg) 138% no-repeat;
-  background-position: -122px -48px; }
+  height: 360px; }
   .gallery__other-places::after {
     position: absolute;
     content: '';
@@ -528,6 +546,11 @@
     left: 50%; }
   .gallery__bromo {
     margin-right: 24px; }
+  .gallery-other__img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    object-position: 45% 0%; }
   .gallery__other-places::after {
     background-size: 55% auto;
     width: 140px;
@@ -554,9 +577,12 @@
     width: 100%;
     margin-bottom: 30px; }
   .gallery__other-places {
+    width: 100%; }
+  .gallery-other__img {
     width: 100%;
-    background: url(../img/other-img.jpg) 1% 35% no-repeat;
-    background-size: cover; }
+    height: 360px;
+    object-fit: cover;
+    object-position: 0 55%; }
   .gallery__other-pages {
     margin-top: 35px;
     margin-bottom: 35px; }
@@ -566,7 +592,10 @@
     margin-top: 20px;
     margin-bottom: 20px; }
   .contact__form {
-    margin-bottom: 20px; }
+    margin-bottom: 80px; }
+  .contact__form::after {
+    top: 110%;
+    left: 48%; }
   .contact__form .send-message {
     float: none;
     margin-left: 38%; }
@@ -592,6 +621,84 @@
     margin-bottom: 20px; }
   .promo-block__title {
     font-size: 4em; } }
+
+@media (max-width: 480px) {
+  .about__description {
+    width: 100%; }
+  .about {
+    background: url(../img/about-background.png) 50% 50% no-repeat;
+    background-size: 40% auto; }
+  .about .about__title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 130px; }
+  .destination__title, .set-itinerary__title {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    font-size: 4em;
+    margin-bottom: 15px; }
+  .destination__text {
+    width: 100%; }
+  .destination__text {
+    margin-left: 0; }
+  .destination__search-form--input {
+    margin-left: 25%;
+    margin-bottom: 20px; }
+  .destination__search-form .glyphicon-search-form {
+    left: 130px; }
+  .destination__place-toggle {
+    text-align: center;
+    width: 100%;
+    float: none; }
+  .gallery-batu .gallery-batu__img {
+    width: 100%;
+    height: auto; }
+  .gallery-batu__description {
+    position: static;
+    padding: 50px 24px 10px 25px;
+    width: 100%;
+    height: auto;
+    background: #f5fafc url(../img/icon1.png) 95% 55px/86px 89px no-repeat;
+    background-position: 95% 5%; }
+  .gallery-batu__description::after {
+    top: 278px;
+    left: 50%; }
+  .gallery-batu .gallery-batu__see-more {
+    left: 79%;
+    top: 46%; }
+  .gallery-batu__description .batu-description__title,
+  .gallery-batu__description .bromo-description__title {
+    margin-bottom: 28px; }
+  .gallery__bromo {
+    margin-bottom: 160px; }
+  .gallery__bromo .gallery-bromo__img {
+    width: 100%;
+    height: auto;
+    position: static; }
+  .gallery-bromo__description {
+    padding: 50px 24px 0 25px;
+    width: 100%;
+    height: auto;
+    background: #f5fafc url(../img/icon2.png) 95% 55px/107px 53px no-repeat;
+    background-position: 95% 15%;
+    opacity: 1; }
+  .gallery-bromo__description::after {
+    top: 278px;
+    left: 50%; }
+  .gallery__bromo .gallery-bromo__see-more {
+    bottom: 22%; }
+  .contact__form .form-company {
+    margin-right: 2.94%; }
+  .contact__form .send-message {
+    margin-left: 28%; }
+  .container-fluid--contact .contact-address__title {
+    font: 39px 'Lato Light'; }
+  .contact__adress-list {
+    padding-left: 10px; }
+  .keep-in-touch__input-wrap {
+    width: 90%;
+    margin-left: 15px; } }
 
 .itinerary-constructor {
   margin-top: 70px; }
@@ -817,3 +924,12 @@
     margin-top: 160px;
     margin-bottom: 15px;
     color: #939293; }
+
+@media (max-width: 480px) {
+  .legal-agreement {
+    width: 100%;
+    text-align: center; }
+  .container-fluid--footer .footer-social-list {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px; } }
