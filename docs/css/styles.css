@@ -229,6 +229,16 @@
     bottom: -70px;
     padding: 15px 0; } }
 
+@media (max-width: 320px) {
+  .container-fluid--header {
+    background: url(../img/header-background-mobile.jpg) no-repeat;
+    background-size: 100% auto;
+    min-height: 473px; }
+  .logo {
+    font-size: 1.7em; }
+  .promo-block .promo-block__title {
+    font-size: 2.1em; } }
+
 .no-padding {
   padding: 0; }
 
@@ -700,6 +710,50 @@
     width: 90%;
     margin-left: 15px; } }
 
+@media (max-width: 320px) {
+  .about .about__title {
+    font-size: 3em; }
+  .about {
+    background: url(../img/about-background.png) 50% 47% no-repeat;
+    background-size: 60% auto; }
+  .about .about__text, .destination__text {
+    font-size: 1.17em;
+    line-height: 1.5; }
+  .destination__title, .set-itinerary__title {
+    font-size: 3em; }
+  .destination__search-form--input {
+    margin-left: 0; }
+  .destination__search-form .glyphicon-search-form {
+    left: 30px; }
+  .gallery__bromo {
+    margin-bottom: 140px; }
+  .contact__form .form-company {
+    margin-right: 0;
+    width: 100%; }
+  .contact__form .form-subject {
+    width: 100%; }
+  .contact__form .send-message {
+    float: none;
+    margin-left: 13%; }
+  .container-fluid--contact .contact-address__title {
+    font: 37px 'Lato Light'; }
+  .container-fluid--keep-in-touch .keep-in-touch__title {
+    font-size: 2.35em;
+    margin-bottom: 8px; }
+  .keep-in-touch__input-wrap {
+    width: 100%;
+    margin-left: 0;
+    float: none; }
+  .keep-in-touch__input-wrap .keep-in-touch__input-link {
+    top: 62%;
+    right: -8%;
+    width: 60px; }
+  .keep-in-touch__input-wrap .keep-in-touch__input {
+    width: 110%;
+    font: 14px 'Lato Medium';
+    margin-left: -20px;
+    padding: 25px 45px 25px 12px; } }
+
 .itinerary-constructor {
   margin-top: 70px; }
   .itinerary-constructor .wrap {
@@ -933,3 +987,7 @@
     width: 100%;
     text-align: center;
     margin-top: 40px; } }
+
+@media (max-width: 320px) {
+  .legal-agreement {
+    width: 103%; } }
