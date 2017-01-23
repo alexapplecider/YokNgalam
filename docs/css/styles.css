@@ -229,7 +229,7 @@
     bottom: -70px;
     padding: 15px 0; } }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .container-fluid--header {
     background: url(../img/header-background-mobile.jpg) no-repeat;
     background-size: 100% auto;
@@ -710,7 +710,7 @@
     width: 90%;
     margin-left: 15px; } }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .about .about__title {
     font-size: 3em; }
   .about {
@@ -988,6 +988,6 @@
     text-align: center;
     margin-top: 40px; } }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .legal-agreement {
     width: 103%; } }
