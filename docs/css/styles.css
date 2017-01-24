@@ -184,7 +184,7 @@
   text-transform: uppercase;
   color: #000000; }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .container-fluid--header {
     min-height: 602px; }
   .header__top-menu {
@@ -195,7 +195,7 @@
     width: 210px;
     padding: 20px 0; } }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .container-fluid--header {
     min-height: 483px; }
   .nav-list {
@@ -210,11 +210,11 @@
     bottom: -90px;
     font-size: 1em; } }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container-fluid--header {
     min-height: 384px; } }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .container-fluid--header {
     background-size: 163% auto; }
   .container-fluid--header .header__top-menu {
@@ -229,15 +229,20 @@
     bottom: -70px;
     padding: 15px 0; } }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .container-fluid--header {
     background: url(../img/header-background-mobile.jpg) no-repeat;
     background-size: 100% auto;
     min-height: 473px; }
   .logo {
     font-size: 1.7em; }
+  .container-fluid--header .header__top-menu {
+    margin-bottom: 40px; }
   .promo-block .promo-block__title {
-    font-size: 2.1em; } }
+    font-size: 2.7em;
+    line-height: 1.2; }
+  .promo-block__text {
+    font-size: 1.2em; } }
 
 .no-padding {
   padding: 0; }
@@ -551,7 +556,7 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0; }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .gallery-batu__see-more {
     left: 50%; }
   .gallery__bromo {
@@ -568,7 +573,7 @@
   .container-fluid--keep-in-touch {
     background-image: linear-gradient(-298deg, #bdf271 53%, #b1e568 50%); } }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .about .about__title {
     font-size: 3.95em; }
   .about__text {
@@ -626,13 +631,13 @@
   .container-fluid--keep-in-touch {
     padding: 35px 40px; } }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header__top-menu {
     margin-bottom: 20px; }
   .promo-block__title {
     font-size: 4em; } }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .about__description {
     width: 100%; }
   .about {
@@ -710,23 +715,31 @@
     width: 90%;
     margin-left: 15px; } }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .about .about__title {
-    font-size: 3em; }
+    font-size: 3em;
+    margin-bottom: 140px; }
   .about {
     background: url(../img/about-background.png) 50% 47% no-repeat;
-    background-size: 60% auto; }
+    background-size: 60% auto;
+    margin-bottom: 65px; }
   .about .about__text, .destination__text {
     font-size: 1.17em;
     line-height: 1.5; }
   .destination__title, .set-itinerary__title {
-    font-size: 3em; }
+    font-size: 3em;
+    margin-top: 30px; }
   .destination__search-form--input {
-    margin-left: 0; }
+    margin-left: 30px; }
   .destination__search-form .glyphicon-search-form {
-    left: 30px; }
+    left: 60px; }
   .gallery__bromo {
     margin-bottom: 140px; }
+  .gallery__other-places::after {
+    background-size: 50% auto;
+    width: 125px;
+    height: 125px;
+    left: 55%; }
   .contact__form .form-company {
     margin-right: 0;
     width: 100%; }
@@ -734,7 +747,7 @@
     width: 100%; }
   .contact__form .send-message {
     float: none;
-    margin-left: 13%; }
+    margin-left: 19%; }
   .container-fluid--contact .contact-address__title {
     font: 37px 'Lato Light'; }
   .container-fluid--keep-in-touch .keep-in-touch__title {
@@ -954,11 +967,11 @@
     font-weight: 700;
     color: #62e2d1; }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .set-itinerary {
     display: block; } }
 
-@media (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .set-itinerary {
     display: none; } }
 
@@ -979,7 +992,7 @@
     margin-bottom: 15px;
     color: #939293; }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .legal-agreement {
     width: 100%;
     text-align: center; }
@@ -988,6 +1001,6 @@
     text-align: center;
     margin-top: 40px; } }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
   .legal-agreement {
     width: 103%; } }

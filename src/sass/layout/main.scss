@@ -52,8 +52,6 @@
 }
 
 .destination__search-form {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 20px;
 
   & > input[type="text"] {
@@ -140,7 +138,6 @@
 
 .gallery__bromo {
   width: 57.26495726495726%;
-  background: url(../img/bromo-img.jpg) no-repeat 0px -175px;
   padding: 0;
   position: relative;
   height: 360px;
@@ -174,12 +171,18 @@
   }
 }
 
+.gallery-other__img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  object-position: 120% 0%;
+}
+
 .gallery__other-places {
   position: relative;
   width: 40.17094017094017%;
   height: 360px;
-  background: url(../img/other-img.jpg) 138% no-repeat;
-  background-position: -122px -48px;
+
   &::after {
     position: absolute;
     content: '';
@@ -236,6 +239,8 @@
 .container-fluid--contact {
   padding-bottom: 75px;
   background: url("../img/map-background.jpg") center no-repeat;
+  background-size: cover;
+  margin-bottom: -5px;
   .contact__title {
     padding-top: 90px;
     font: 4.8em 'ChunkFive';
@@ -314,7 +319,7 @@
   }
   .form-company {
     margin-bottom: 20px;
-    margin-right: 14px;
+    margin-right: 2.95%;
     width: 48%;
   }
   .form-subject {
@@ -347,7 +352,7 @@
     padding: 0;
   }
   .keep-in-touch__title {
-    font: 67px 'ChunkFive';
+    font: 4.78em 'ChunkFive';
     color: #FFFFFF;
   }
   .keep-in-touch__text {
@@ -387,24 +392,294 @@
   }
 }
 
-@media (max-width: 1200px) {
+//
+// Media Query
+///
+
+@media screen and (max-width: 1200px) {
   .gallery-batu__see-more {
     left: 50%;
   }
   .gallery__bromo {
     margin-right: 24px;
   }
+  .gallery-other__img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    object-position: 45% 0%;
+  }
   .gallery__other-places::after {
     background-size: 55% auto;
     width: 140px;
     height: 140px;
   }
-  .contact__form .form-company {
-    margin-right: 11px;
-  }
-
   .container-fluid--keep-in-touch {
     background-image: linear-gradient(-298deg, #bdf271 53%, #b1e568 50%);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about .about__title {
+    font-size: 3.95em;
+  }
+  .about__text {
+    font-size: 1em;
+  }
+  .destination__title,
+  .set-itinerary__title {
+    font-size: 4em;
+  }
+  .gallery-batu__description .batu-description__text,
+  .gallery-batu__description .bromo-description__text {
+    font-size: 1em;
+  }
+  .gallery-batu__description {
+    padding: 165px 24px 55px 25px;
+  }
+  .gallery-batu .gallery-batu__see-more {
+    left: 48%;
+  }
+  .gallery__bromo {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .gallery__other-places {
+    width: 100%;
+  }
+  .gallery-other__img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    object-position: 0 55%;
+  }
+  .gallery__other-pages {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .container-fluid--contact .contact__title {
+    font-size: 4em;
+    padding-top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact__form {
+    margin-bottom: 80px;
+  }
+  .contact__form::after {
+    top: 110%;
+    left: 48%;
+  }
+  .contact__form .send-message {
+    float: none;
+    margin-left: 38%;
+  }
+  .container-fluid--contact .contact-address__title {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .contact__adress-list {
+    padding-left: 160px;
+  }
+  .keep-in-touch__title-wrap {
+    margin-bottom: 10px;
+  }
+  .container-fluid--keep-in-touch .keep-in-touch__title {
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 5px;
+  }
+  .container-fluid--keep-in-touch .keep-in-touch__text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .container-fluid--keep-in-touch {
+    padding: 35px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__top-menu {
+    margin-bottom: 20px;
+  }
+  .promo-block__title {
+    font-size: 4em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about__description {
+    width: 100%;
+  }
+  .about {
+    background: url(../img/about-background.png) 50% 50% no-repeat;
+    background-size: 40% auto;
+  }
+  .about .about__title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+  }
+  .destination__title, .set-itinerary__title {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    font-size: 4em;
+    margin-bottom: 15px;
+  }
+  .destination__text {
+    width: 100%;
+  }
+  .destination__text {
+    margin-left: 0;
+  }
+  .destination__search-form--input {
+    margin-left: 25%;
+    margin-bottom: 20px;
+  }
+  .destination__search-form .glyphicon-search-form {
+    left: 130px;
+  }
+  .destination__place-toggle {
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+  .gallery-batu .gallery-batu__img {
+    width: 100%;
+    height: auto;
+  }
+  .gallery-batu__description {
+    position: static;
+    padding: 50px 24px 10px 25px;
+    width: 100%;
+    height: auto;
+    background: #f5fafc url(../img/icon1.png) 95% 55px/86px 89px no-repeat;
+    background-position: 95% 5%;
+  }
+  .gallery-batu__description::after {
+    top: 278px;
+    left: 50%;
+  }
+  .gallery-batu .gallery-batu__see-more {
+    left: 79%;
+    top: 46%;
+  }
+  .gallery-batu__description .batu-description__title,
+  .gallery-batu__description .bromo-description__title {
+    margin-bottom: 28px;
+  }
+
+  .gallery__bromo {
+    margin-bottom: 160px;
+  }
+  .gallery__bromo .gallery-bromo__img {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+  .gallery-bromo__description {
+    padding: 50px 24px 0 25px;
+    width: 100%;
+    height: auto;
+    background: #f5fafc url(../img/icon2.png) 95% 55px/107px 53px no-repeat;
+    background-position: 95% 15%;
+    opacity: 1;
+  }
+  .gallery-bromo__description::after {
+    top: 278px;
+    left: 50%;
+  }
+  .gallery__bromo .gallery-bromo__see-more {
+    bottom: 22%;
+  }
+  .contact__form .form-company {
+    margin-right: 2.94%;
+  }
+  .contact__form .send-message {
+    margin-left: 28%;
+  }
+  .container-fluid--contact .contact-address__title {
+    font: 39px 'Lato Light';
+  }
+  .contact__adress-list {
+    padding-left: 10px;
+  }
+  .keep-in-touch__input-wrap {
+    width: 90%;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about .about__title {
+    font-size: 3em;
+    margin-bottom: 140px;
+  }
+  .about {
+    background: url(../img/about-background.png) 50% 47% no-repeat;
+    background-size: 60% auto;
+    margin-bottom: 65px;
+  }
+  .about .about__text, .destination__text {
+    font-size: 1.17em;
+    line-height: 1.5;
+  }
+  .destination__title, .set-itinerary__title {
+    font-size: 3em;
+    margin-top: 30px;
+  }
+  .destination__search-form--input {
+    margin-left: 30px;
+  }
+  .destination__search-form .glyphicon-search-form {
+    left: 60px;
+  }
+  .gallery__bromo {
+    margin-bottom: 140px;
+  }
+
+  .gallery__other-places::after {
+    background-size: 50% auto;
+    width: 125px;
+    height: 125px;
+    left: 55%;
+  }
+
+  .contact__form .form-company {
+    margin-right: 0;
+    width: 100%;
+  }
+  .contact__form .form-subject {
+    width: 100%;
+  }
+  .contact__form .send-message {
+    float: none;
+    margin-left: 19%;
+  }
+  .container-fluid--contact .contact-address__title {
+    font: 37px 'Lato Light';
+  }
+  .container-fluid--keep-in-touch .keep-in-touch__title {
+    font-size: 2.35em;
+    margin-bottom: 8px;
+  }
+  .keep-in-touch__input-wrap {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+
+  }
+  .keep-in-touch__input-wrap .keep-in-touch__input-link {
+    top: 62%;
+    right: -8%;
+    width: 60px;
+  }
+  .keep-in-touch__input-wrap .keep-in-touch__input {
+    width: 110%;
+    font: 14px 'Lato Medium';
+    margin-left: -20px;
+    padding: 25px 45px 25px 12px;
   }
 
 }

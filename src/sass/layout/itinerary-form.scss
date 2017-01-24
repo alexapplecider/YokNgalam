@@ -235,4 +235,18 @@
   }
 }
 
+//
+// Media Query
+///
 
+@media screen and (max-width: 1200px) {
+  .set-itinerary {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .set-itinerary {
+    display: none;
+  }
+}

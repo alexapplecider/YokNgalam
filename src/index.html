@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title> YokNgalam </title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
@@ -13,7 +13,6 @@
 </head>
 <body>
 <div class="container-fluid container-fluid--header">
-    <div class="container">
         <div class="row">
             <div class="header__top-menu col-lg-12 col-md-12 col-xs-12">
                 <div class="top-menu__logo col-lg-2 col-md-2 col-xs-2">
@@ -53,14 +52,14 @@
             </p>
             <a href="#" class="promo-block__button"> Set itinerary now </a>
         </div>
-    </div>
 </div>
 <main>
-    <div class="container no-padding">
+    <div class="container">
         <div class="row">
             <section class="about col-lg-12 col-md-12 col-xs-12">
                 <div class="about__description pull-right col-lg-6 col-md-6 col-xs-6">
-                    <h2 class="about__title col-lg-6 pull-right col-md-6 col-xs-6"> City of <span class="love">Love</span></h2>
+                    <h2 class="about__title col-lg-6 pull-right col-md-6 col-xs-6"> City of <span
+                            class="love">Love</span></h2>
                     <p class="about__text col-lg-12 col-md-12 col-xs-12">
                         Malang is the second largest city in East Java province, Indonesia.
                         It has a history dating back to the ancient Mataram Kingdom.
@@ -74,16 +73,17 @@
     <div class="container-fluid container-fluid--destination">
         <div class="container no-padding">
             <section class="destination col-lg-12 col-md-12 col-xs-12">
-                <h2 class="destination__title col-lg-6 col-md-6 col-xs-6"> Des<span class="tination">tination</span></h2>
-                <p class="destination__text col-lg-7 col-md-7 col-xs-7">
+                <h2 class="destination__title col-lg-6 col-md-6 col-xs-6"> Des<span class="tination">tination</span>
+                </h2>
+                <p class="destination__text col-lg-7 col-md-7 col-xs-10">
                     Being around by many mountain,
                     Malang not only came with mountain vacation, but our beach,
                     cultural spot, and Human Interest is worth to experienced.
                 </p>
-                <div class="destination__search-form col-lg-10 col-md-10 col-xs-10 col-lg-offset-1">
-                    <input type="text" placeholder="search destination">
+                <div class="destination__search-form pull-left col-lg-10 col-md-12 col-xs-12 col-lg-offset-1">
+                    <input type="text" class="destination__search-form--input" placeholder="search destination">
                     <span class="glyphicon glyphicon-search glyphicon-search-form" aria-hidden="true"></span>
-                    <div class="destination__place-toggle">
+                    <div class="destination__place-toggle pull-right">
                         <a href="#" class="search-form__all-place"> All place /</a>
                         <a href="#" class="search-form__recomended-place"> Recomended place</a>
                     </div>
@@ -107,6 +107,7 @@
                         </div>
                     </article>
                     <article class="gallery__bromo col-lg-6 col-md-6 col-xs-12">
+                        <img src="img/bromo-img.jpg" alt="bromo-photo" class="gallery-bromo__img">
                         <a href="" class="gallery-bromo__see-more">
                             see more <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
                         </a>
@@ -115,11 +116,12 @@
                             <p class="bromo-description__text">
                                 Mount Bromo is an active volcano and part of the Tengger massif,
                                 in East Java, Indonesia. At 2,329 metres (7,641 ft)
-                                it is not the highest peak of the massif, but is the most well known
+                                it is not the highest peak of the massif, but is the most well known.
                             </p>
                         </div>
                     </article>
-                    <article class="gallery__other-places col-lg-6 col-md-6 col-xs-12">
+                    <article class="gallery__other-places col-lg-6 col-md-6 col-xs-12 no-padding">
+                        <img src="img/other-img.jpg" alt="other-photo" class="gallery-other__img">
                         <a href="#" class="other-places__see-more">
                             see more <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
                     </article>
@@ -247,50 +249,48 @@
             </section>
         </div>
     </div>
-        <div class="container-fluid container-fluid--contact">
-            <div class="container">
-                <section class="contact col-lg-12 col-md-12 col-xs-12">
-                    <h2 class="contact__title"> Contact </h2>
-                    <form class="contact__form col-lg-5 col-md-5 col-xs-12 pull-left" action="***" method="post">
-                        <input class="form-input form-email" type="text" placeholder="Your Email">
-                        <input class="form-input form-company" type="text" placeholder="Company">
-                        <input class="form-input form-subject" type="text" placeholder="Subject">
-                        <input class="form-input form-textarea" type="text" placeholder="Your Messages">
-                        <button class="btn send-message"> Send Message</button>
-                    </form>
-                    <div class="contact__address col-lg-5 col-md-5 col-xs-12 pull-right col-lg-offset-2 no-padding">
-                        <h3 class="contact-address__title"> You Can Find Us Here </h3>
-                        <ul class="contact__adress-list">
-                            <li class="contact__adress-list--item">
-                                Jl.Danau Bratan sekian nomer sekian, Sawojajar Malang <br>
-                                <a class="contact__adress-link-map" href="#"> FIND ON MAPS </a>
-                            </li>
-                            <li class="contact__adress-list--item"> (+62) 8816723812</li>
-                            <li class="contact__adress-list--item"> (+62) 8512371632</li>
-                        </ul>
-                    </div>
-                </section>
-            </div>
-        </div>
-    <section class="container-fluid container-fluid--keep-in-touch">
+    <div class="container-fluid container-fluid--contact">
         <div class="container">
+            <section class="contact col-lg-12 col-md-12 col-xs-12">
+                <h2 class="contact__title"> Contact </h2>
+                <form class="contact__form col-lg-5 col-md-5 col-xs-12 pull-left" action="***" method="post">
+                    <input class="form-input form-email" type="text" placeholder="Your Email">
+                    <input class="form-input form-company" type="text" placeholder="Company">
+                    <input class="form-input form-subject" type="text" placeholder="Subject">
+                    <input class="form-input form-textarea" type="text" placeholder="Your Messages">
+                    <button class="btn send-message"> Send Message</button>
+                </form>
+                <div class="contact__address col-lg-5 col-md-5 col-xs-12 pull-right col-lg-offset-2 no-padding">
+                    <h3 class="contact-address__title"> You Can Find Us Here </h3>
+                    <ul class="contact__adress-list">
+                        <li class="contact__adress-list--item">
+                            Jl.Danau Bratan sekian nomer sekian, Sawojajar Malang <br>
+                            <a class="contact__adress-link-map" href="#"> FIND ON MAPS </a>
+                        </li>
+                        <li class="contact__adress-list--item"> (+62) 8816723812</li>
+                        <li class="contact__adress-list--item"> (+62) 8512371632</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="container-fluid container-fluid--keep-in-touch">
             <div class="keep-in-touch__title-wrap col-lg-5 col-md-6 col-xs-12">
                 <h2 class="keep-in-touch__title"> Keep in touch </h2>
                 <p class="keep-in-touch__text"> We Will Give you latest information about Malang </p>
             </div>
-            <div class="keep-in-touch__input-wrap col-lg-5 col-md-5 col-xs-12 pull-right col-lg-offset-2">
+            <div class="keep-in-touch__input-wrap col-lg-5 col-md-5 col-xs-8 col-lg-offset-2 col-md-offset-1 col-xs-offset-2">
                 <input class="keep-in-touch__input" type="text" placeholder="Type Email Here for Subscribe">
                 <a class="keep-in-touch__input-link" href="#">
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 </a>
             </div>
-        </div>
     </section>
 </main>
 <footer class="container-fluid container-fluid--footer">
     <div class="container">
         <div class="row col-lg-12">
-            <div class="legal-agreement col-lg-3 "> Term & Condition - Policy - Privacy</div>
+            <div class="legal-agreement col-lg-3 col-xs-6"> Term & Condition - Policy - Privacy</div>
             <ul class="footer-social-list col-lg-2">
                 <li class="footer-social-list--item"><a href="#"><img src="img/icon-facebook.png" width="31" height="30"
                                                                       alt="facebook"></a></li>

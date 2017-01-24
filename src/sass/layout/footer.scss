@@ -21,3 +21,25 @@
     color: #939293;
   }
 }
+
+//
+// Media Query
+///
+
+@media screen and (max-width: 480px) {
+  .legal-agreement {
+    width: 100%;
+    text-align: center;
+  }
+  .container-fluid--footer .footer-social-list {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .legal-agreement {
+    width: 103%;
+  }
+}

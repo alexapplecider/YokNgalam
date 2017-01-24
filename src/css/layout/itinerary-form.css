@@ -197,3 +197,11 @@
     font: 1em "Lato";
     font-weight: 700;
     color: #62e2d1; }
+
+@media screen and (max-width: 1200px) {
+  .set-itinerary {
+    display: block; } }
+
+@media screen and (max-width: 1199px) {
+  .set-itinerary {
+    display: none; } }
